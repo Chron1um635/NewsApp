@@ -121,6 +121,7 @@ class ViewControllerS: UIViewController {
         newsAuthor.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -20).isActive = true
     }
     
+    
     func configure() {
         newsTitleLabel.text = viewModels.title
         newsDescription.text = viewModels.description
